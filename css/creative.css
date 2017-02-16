@@ -1,3 +1,5 @@
+---
+---
 /*!
  * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -178,7 +180,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(/advigo/img/header.jpg);
+    background-image: url({{ site.baseurl }}/img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
