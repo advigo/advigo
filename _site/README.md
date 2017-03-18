@@ -1,2 +1,0 @@
-# advigo
-Webbaserade IT lösningar
