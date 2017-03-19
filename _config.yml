@@ -1,4 +1,4 @@
-baseurl: /advigo
+baseurl:
 exclude: ['README.md']
 collections:
   portfolio:
