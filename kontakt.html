@@ -9,20 +9,20 @@ title: Kontakt
         <div class="col-sm-4">
           <div class="contact-detail-box">
             <i class="fa fa-th fa-3x text-colored"></i>
-            <h4>Get In Touch</h4>
-            <abbr title="Phone">P:</abbr> (123) 456-7890<br>
-            E: <a href="mailto:info@advigo.se" class="text-muted">email@email.com</a>
+            <h4>Kontakta oss</h4>
+            <abbr title="Phone">P:</abbr> 0760-660010<br>
+            E: <a href="mailto:info@advigo.se" class="text-muted">info@advigo.se</a>
           </div>
         </div><!-- end col -->
 
         <div class="col-sm-4">
           <div class="contact-detail-box">
             <i class="fa fa-map-marker fa-3x text-colored"></i>
-            <h4>Our Location</h4>
+            <h4>Besöksadress</h4>
 
             <address>
-            795 Folsom Ave, Suite 600<br>
-            San Francisco, CA 94107<br>
+            Gustav Adolfs Allé 10<br>
+            703 56  Örebro<br>
           </address>
           </div>
         </div><!-- end col -->
@@ -30,10 +30,13 @@ title: Kontakt
         <div class="col-sm-4">
           <div class="contact-detail-box">
             <i class="fa fa-book fa-3x text-colored"></i>
-            <h4>24x7 Support</h4>
+            <h4>Postadress</h4>
 
-            <p>Industry's standard dummy text.</p>
-            <h4 class="text-muted">1234 567 890</h4>
+            <address>
+            c/o FE1002<br>
+            Box 25<br>
+            701 40  Örebro<br>
+          </address>
           </div>
         </div><!-- end col -->
 
@@ -44,7 +47,7 @@ title: Kontakt
       <div class="row">
         <div class="col-sm-6">
           <div class="contact-map">
-            <iframe src="https://www.google.com/maps/embed/v1/place?q=New+York+University&amp;key=AIzaSyBSFRN6WWGYwmFi498qXXsD2UwkbmD74v4" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height: 360px;"></iframe>
+            <iframe src="https://www.google.se/maps/place/Gustav+Adolfs+all%C3%A9+10,+703+56+%C3%96rebro/@59.2824478,15.2084051,17z/data=!3m1!4b1!4m5!3m4!1s0x465c1518dd9c0f6f:0x2d9a6bf6d6aa3d65!8m2!3d59.2824478!4d15.2105938" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height: 360px;"></iframe>
           </div>
         </div><!-- end col -->
 
@@ -53,31 +56,31 @@ title: Kontakt
           <form role="form" name="ajax-form" id="ajax-form" action="https://formsubmit.io/send/info@advigo.se" method="post" class="form-main">
 
             <div class="form-group">
-              <label for="name2">Name</label>
+              <label for="name2">Namn</label>
               <input class="form-control" id="name2" name="name" onblur="if(this.value == '') this.value='Name'" onfocus="if(this.value == 'Name') this.value=''" type="text" value="Name">
-              <div class="error" id="err-name" style="display: none;">Please enter name</div>
+              <div class="error" id="err-name" style="display: none;">Fyll i namn</div>
             </div> <!-- /Form-name -->
 
             <div class="form-group">
-              <label for="email2">Email</label>
+              <label for="email2">Epost</label>
               <input class="form-control" id="email2" name="email" type="text" onfocus="if(this.value == 'E-mail') this.value='';" onblur="if(this.value == '') this.value='E-mail';" value="E-mail">
-              <div class="error" id="err-emailvld" style="display: none;">E-mail is not a valid format</div>
+              <div class="error" id="err-emailvld" style="display: none;">Epostadress i godkänt format</div>
             </div> <!-- /Form-email -->
 
             <div class="form-group">
-              <label for="message2">Message</label>
+              <label for="message2">Meddelande</label>
               <textarea class="form-control" id="message2" name="message" rows="5" onblur="if(this.value == '') this.value='Message'" onfocus="if(this.value == 'Message') this.value=''">Message</textarea>
 
-              <div class="error" id="err-message" style="display: none;">Please enter message</div>
+              <div class="error" id="err-message" style="display: none;">Fyll i meddelande/div>
             </div> <!-- /col -->
 
             <div class="row">
               <div class="col-xs-12">
-                <div id="ajaxsuccess" class="text-success">E-mail was successfully sent.</div>
-                <div class="error" id="err-form" style="display: none;">There was a problem validating the form please check!</div>
-                <div class="error" id="err-timedout">The connection to the server timed out!</div>
+                <div id="ajaxsuccess" class="text-success">Epost är sänt.</div>
+                <div class="error" id="err-form" style="display: none;">Det var problem att validera meddelandet, försök igen!</div>
+                <div class="error" id="err-timedout">Servern svarar inte!</div>
                 <div class="error" id="err-state"></div>
-                <button type="submit" class="btn btn-primary btn-shadow btn-rounded w-md" id="send">Submit</button>
+                <button type="submit" class="btn btn-primary btn-shadow btn-rounded w-md" id="send">Sänd</button>
               </div> <!-- /col -->
             </div> <!-- /row -->
 
