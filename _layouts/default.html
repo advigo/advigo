@@ -93,5 +93,8 @@
 
 		<!-- Custom Theme JavaScript -->
 		<script src="{{site.baseurl}}/js/creative.js"></script>
+			{% if jekyll.environment == 'production' %}
+			{% include analytics.html %}
+			{% endif %}
 	</body>
 </html>
