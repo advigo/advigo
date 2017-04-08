@@ -2,26 +2,7 @@
 layout: page
 title: blog
 ---
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="text-center">
-        <ul style="list-style-position: inside">
-          {% for post in site.posts %}
-           <li>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
-           </li>
-          {% endfor %}
-        </ul>
 
-      </div>
-
-    </div>
-
-  </div>
-</section>
-<section>
-  <div class="container">
 <div class="row">
   <div class="span8">
     <div class="row">
@@ -54,7 +35,4 @@ title: blog
     </div>
   </div>
 </div>
-<hr>
 {% endfor %}
-</section>
-</div>
