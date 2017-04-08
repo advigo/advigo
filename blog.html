@@ -20,3 +20,41 @@ title: blog
 
   </div>
 </section>
+<section>
+  <div class="container">
+<div class="row">
+  <div class="span8">
+    <div class="row">
+      <div class="span8">
+        {% for post in site.posts %}
+        <h4><strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong></h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span2">
+        <a href="#" class="thumbnail">
+            <img src="http://placehold.it/260x180" alt="">
+        </a>
+      </div>
+      <div class="span6">
+        <p>
+          {{ post.content }}
+        </p>
+        <p><a class="btn" href="{{ site.baseurl }}{{ post.url }}">Läs mer</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span8">
+        <p></p>
+        <p>
+          <i class="icon-user"></i> by <a href="#">{{ post.name }}</a>
+          | <i class="icon-calendar"></i> {{ post.date | date: "%Y-%m-%d" }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+{% endfor %}
+</section>
+</div>
