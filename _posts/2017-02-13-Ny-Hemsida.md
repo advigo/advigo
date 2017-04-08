@@ -2,7 +2,7 @@
 layout: post
 title: Ny hemsida
 name: Saso
-
+image: /img/logo-2x.png
 ---
 
 Efter 7 år med produktion av Wordpresshemsidor så har den resan nått sitt slut.
