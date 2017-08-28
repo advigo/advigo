@@ -1,19 +1,5 @@
 baseurl:
+url: "https://advigo.se # the base hostname & protocol for your site - used for feed.xml
 exclude: ['README.md']
 collections:
   portfolio:
-
-sitemap:
-    filename: "/sitemap.xml"
-    exclude:
-        - "/atom.xml"
-        - "/feed.xml"
-        - "/feed/index.xml"
-    include_posts:
-        - "/index.html"
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"
-
-gems:
-  - jekyll-sitemap
-  
