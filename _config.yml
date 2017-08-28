@@ -1,5 +1,5 @@
 baseurl:
-url: "advigo.se # the base hostname & protocol for your site - used for feed.xml
+url: "https://advigo.se # the base hostname & protocol for your site - used for feed.xml
 exclude: ['README.md']
 collections:
   portfolio:
