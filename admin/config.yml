@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: advigo/advigo # Path to your Github repository
-  site_domain: https://advigo.se
+  site_domain: http://advigo.se
   base_url: https://advigo-git.herokuapp.com
   branch: gh-pages # Branch to update (master by default)
 
