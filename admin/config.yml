@@ -2,7 +2,7 @@ backend:
   name: github
   repo: advigo/advigo # Path to your Github repository
   site_domain: https://advigo.se
-  base_url: https://advigo-git.herokuapp.com/
+  base_url: https://advigo-git.herokuapp.com
   branch: gh-pages # Branch to update (master by default)
 
 media_folder: "img/uploads" # Folder where user uploaded files should go
