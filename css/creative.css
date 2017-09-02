@@ -486,3 +486,13 @@ margin-bottom:10px;
 display:inline-block;
 position:relative;
 }
+
+img[alt$="-tumme"]{
+  width:  100px;
+  display: block;
+}
+
+img[alt$="-fullwidth"]{
+  width:  100%;
+  display: block;
+}
