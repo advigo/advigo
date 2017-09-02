@@ -1,9 +1,9 @@
 ---
 categories: SEO
-image: /img/uploads/http-https.jpg
 layout: post
 title: Förbättra din ranking i sökmotorer med https
 name: Saso
+image: /img/uploads/http-https.jpg
 tags: SEO
 ---
 ![https seo -fullwidh](/img/uploads/http-https.jpg)
@@ -14,4 +14,5 @@ Detta är viktigt att ha på hemsidor som har känslig information, så att info
 Då det har blivit allt vanligare att hemsidor kapas eller hackas för att lägga in illasinnad kod så har sökmotorer som Google börjat premiera hemsidor som använder https i sin webbaddress.
 Detta ökar din ranking i sökmotorer och ger fördelar mot dina konkurenter som inte använder detta.
 Förr var det rätt så kostsamt att implementera och underhålla https addresser, men nu för tiden är det mycket lättare och rekomenderas för att säkra och öka rankingen på din hemsida.
+
 
