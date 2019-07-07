@@ -54,39 +54,18 @@ title: Kontakt
 
         <!-- Contact form -->
         <div class="col-sm-6">
-          <form role="form" name="ajax-form" id="ajax-form" action="https://formsubmit.io/send/985bae17-1bf5-40df-aaaf-1b37e733cb89" method="post" class="form-main">
-
-            <div class="form-group">
-              <label for="name2">Name</label>
-              <input class="form-control" id="name2" name="name" onblur="if(this.value == '') this.value='Name'" onfocus="if(this.value == 'Name') this.value=''" type="text" value="Name">
-              <div class="error" id="err-name" style="display: none;">Please enter name</div>
-              <input name="_formsubmit_id" type="text" style="display:none">
-            </div> <!-- /Form-name -->
-
-            <div class="form-group">
-              <label for="email2">Email</label>
-              <input class="form-control" id="email2" name="email" type="text" onfocus="if(this.value == 'E-mail') this.value='';" onblur="if(this.value == '') this.value='E-mail';" value="E-mail">
-              <div class="error" id="err-emailvld" style="display: none;">E-mail is not a valid format</div>
-            </div> <!-- /Form-email -->
-           
-            <div class="form-group">
-              <input name="_formsubmit_id" type="text" style="display:none">
-            </div> <!-- /Form extra -->
-
-            <div class="form-group">
-              <label for="message2">Message</label>
-              <textarea class="form-control" id="message2" name="message" rows="5" onblur="if(this.value == '') this.value='Message'" onfocus="if(this.value == 'Message') this.value=''">Message</textarea>
-
-              <div class="error" id="err-message" style="display: none;">Please enter message</div>
-            </div> <!-- /col -->
-
-            <div class="row">
-              <div class="col-xs-12">
-                <div id="ajaxsuccess" class="text-success">Epost är sänt.</div>
-                <div class="error" id="err-form" style="display: none;">Det var problem att validera meddelandet, försök igen!</div>
-                <div class="error" id="err-timedout">Servern svarar inte!</div>
-                <div class="error" id="err-state"></div>
-                <button type="submit" class="btn btn-primary btn-shadow btn-rounded w-md" id="send">Sänd</button>
+          <form id="contactform" method="POST">
+                <input type="text" name="name" placeholder="Your name">
+                <input type="email" name="_replyto" placeholder="Your email">
+                <input type="hidden" name="_subject" value="Website contact" />
+                <textarea name="message" placeholder="Your message"></textarea>
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="submit" value="Send">
+            </form>
+            <script>
+                var contactform =  document.getElementById('contactform');
+                contactform.setAttribute('action', '//formspree.io/' + 'info' + '@' + 'advigo' + '.' + 'se');
+            </script>
               </div> <!-- /col -->
             </div> <!-- /row -->
 
